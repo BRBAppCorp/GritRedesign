@@ -28,8 +28,8 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 }
 
 TitleAndMetaTags.defaultProps = {
-	url: 'https://donarita.co.uk',
+	url: 'https://gritgrocery.com',
 	pathname: '',
-	title: 'Dona Rita',
-	description: 'Brazilian cheese bread. Pão de Queijo.'
+	title: 'Grit Grocery | A Throwback Grocer on Wheels',
+	description: 'Grit+ Redesign by NTS.'
 };
