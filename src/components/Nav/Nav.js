@@ -29,10 +29,10 @@ export class Nav extends React.Component {
 	render() {
 		const links = [
 			{ name: 'Home', to: '/' },
-			{ name: 'Story', to: '/story' },
+			{ name: 'Grit+Delivery', to: '/story' },
 			{ name: 'Press', to: '/press' },
-			{ name: 'Shops', to: '/shops' },
-			{ name: 'Buy online', to: '/buy' }
+			{ name: 'Find+Truck', to: '/shops' },
+			{ name: 'Shop+Online', to: '/buy' }
 		];
 		return (
 			<div className="grid">
