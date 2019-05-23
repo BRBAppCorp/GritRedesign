@@ -29,8 +29,8 @@ export class Nav extends React.Component {
 	render() {
 		const links = [
 			{ name: 'Home', to: '/' },
-			{ name: 'Grit+Delivery', to: '/story' },
-			{ name: 'Press', to: '/press' },
+			{ name: 'Our Story', to: '/story' },
+			{ name: 'Grit+Delivery', to: '/delivery' },
 			{ name: 'Find+Truck', to: '/shops' },
 			{ name: 'Shop+Online', to: '/buy' }
 		];

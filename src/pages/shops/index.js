@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 
 import { TitleAndMetaTags } from '../../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../../components/Section/Section';
-import { Contact } from '../../components/Contact/Contact';
 import { FakeImg } from '../../components/FakeImg/FakeImg';
 import { Banner } from '../../components/Banner/Banner';
 
@@ -101,8 +100,6 @@ function ShopsPage({ data }) {
 					</div>
 				</div>
 			</Section>
-
-			<Contact />
 		</div>
 	);
 }

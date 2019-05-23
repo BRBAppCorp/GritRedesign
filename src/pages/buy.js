@@ -2,8 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
-import { Section } from '../components/Section/Section';
-import { Contact } from '../components/Contact/Contact';
 import { Product } from '../components/Product/Product';
 import { Banner } from '../components/Banner/Banner';
 
@@ -19,14 +17,10 @@ function BuyPage({ data, location }) {
 				postcodes={data.allPostcodesJson.edges[0].node.allowed}
 				stockists={data.allMarkdownRemark.edges}
 				location={location}
-				soldout
+				soldout={true}
 			/>
 
 			<Banner img={bannerImg} mobileImg={bannerMobileImg} />
-
-			<Section>
-				<Contact />
-			</Section>
 		</div>
 	);
 }

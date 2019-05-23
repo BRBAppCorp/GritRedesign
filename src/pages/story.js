@@ -4,7 +4,6 @@ import { Link } from 'gatsby';
 // import { Layout } from '../components/Layout/Layout';
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../components/Section/Section';
-import { Contact } from '../components/Contact/Contact';
 import { FakeImg } from '../components/FakeImg/FakeImg';
 import { Banner } from '../components/Banner/Banner';
 
@@ -20,9 +19,9 @@ function StoryPage({ location }) {
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						This is our story.
+						The Spirit of an Old School Grocery Meets
 						<br />
-						<span className="salmon">A family adventure.</span>
+						<span className="salmon">Today's Technology</span>
 					</h1>
 				</div>
 				<div className="grid">
@@ -33,16 +32,25 @@ function StoryPage({ location }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<h2>
-							Rita’s saudade<sup className="-yellow">&#9679;</sup>
+							Our Philosophy & Why Grit Grocery Matters.<sup className="-yellow">&#9679;</sup>
 						</h2>
 					</div>
 
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure">
-							When Rita left the tropics for Norwich she missed Pão de Queijo so much she
-							started baking it from scratch. For the last 15 years she’s been perfecting
-							her secret family recipe. Now her little cheese bread is so delicious, some
-							people think it’s better than the original. We can’t wait for you to try it.
+							<h2>BEST OF THE FARM = LOCAL</h2>
+							<strong>Houston is Happening.</strong> <br/>
+							Creates Jobs & Diversifies the Houston Economy
+							Minimizes Food Miles & Provides Maximum Freshness
+							Reinforces the “Seasonality” of Food
+
+							<h2>UNPROCESSED: WHY EAT WHAT YOU CAN'T PRONOUNCE?</h2>
+
+							Less is more
+							REAL FOOD. No Dyes, No Preservatives, No Pesticides, No Hormones
+							Processed Is Not Progress
+
+
 						</p>
 						<p>
 							<Link to="/ingredients" className="button">
@@ -96,8 +104,6 @@ function StoryPage({ location }) {
 					</div>
 				</div>
 			</Section>
-
-			<Contact />
 		</div>
 		// </Layout>
 	);

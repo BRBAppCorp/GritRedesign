@@ -6,10 +6,10 @@ import Script from 'react-load-script';
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../components/Section/Section';
 import { Product } from '../components/Product/Product';
-import { Contact } from '../components/Contact/Contact';
 import { Typewriter } from '../components/Typewriter/Typewriter';
 import { Banner } from '../components/Banner/Banner';
 import { FakeImg } from '../components/FakeImg/FakeImg';
+//import Logo from '../components/Logo';
 
 import img1 from '../images/img-1.jpg';
 import img2 from '../images/img-2.jpg';
@@ -41,14 +41,14 @@ function IndexPage({ data, location }) {
 			<TitleAndMetaTags />
 			<Section>
 				<div className="grid">
+					<div>
+						
+					</div>
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Dona Rita
-						<br />
-						Pão de Queijo.
-						<span className="title-desc">Brazilian cheese</span>
+						<span className="title-desc">A better way to do grocery</span>
 						<Typewriter
 							className="title-desc"
-							texts={['bread.', 'buns.', 'balls.', 'rolls.', 'puffs.', 'goodness.']}
+							texts={['local.', 'fresh.', 'delivered to your door']}
 						/>
 					</h1>
 				</div>
@@ -56,17 +56,12 @@ function IndexPage({ data, location }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							A proper Pão de Queijo is a two-bite business: crunchy on the outside and
-							fluffy on the inside. Made with cassava flour and fresh cheese, it’s a
-							farmer’s take on traditional European bread - without the wheat. Pão de
-							Queijo is a staple snack at most cafes, restaurants and dinner parties
-							across Brazil. It’s cheesily addictive and naturally gluten free.
+							Healthy is Hard. Processed foods have dominated traditional supermarkets,
+							and the grocery shopping process has become miserable and time consuming.
+							Grit Grocery’ s mobile markets and home delivery make cooking healthy, easy,
+							and fun by bringing smart food options and nutritious meal kit bundles from local farmers and producers,
+							straight to your neighborhood.
 						</p>
-						<p className="measure">
-							Try pairing it with a short black coffee São Paulo style, or spread thickly
-							with guava<sup className="-yellow">&#9679;</sup> jam for a sweet contrast.
-						</p>
-
 						<p>
 							<Link to="/story" className="button">
 								Read our story
@@ -76,9 +71,7 @@ function IndexPage({ data, location }) {
 
 					<div className="col md-3 lg-2">
 						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Guava jam is made with guava, a tropical fruit that’s sweet and aromatic.
-							It’s the most popular dip for Pão de Queijo. You can use your favourite
-							english jam as a substitute.
+						Grit Grocery is launching new neighborhood locations throughout the city! Sign up for our announcements and check Instagram for the latest developments.
 						</p>
 					</div>
 				</div>
@@ -153,10 +146,6 @@ function IndexPage({ data, location }) {
 						<p>Tom Howells – TimeOut London</p>
 					</blockquote>
 				</div>
-			</Section>
-
-			<Section>
-				<Contact />
 			</Section>
 		</div>
 		// </Layout>
