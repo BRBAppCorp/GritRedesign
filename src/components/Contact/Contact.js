@@ -9,25 +9,25 @@ export function Contact() {
 
 			<div className="grid">
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
-					Call Clara at
-					<span className="contact-phone">+44 (0) 79522 16979</span>
+					Call Us at
+					<span className="contact-phone">+1 (281)-330-8004</span>
 					<span className="contact-or">
 						<span>or</span>
 					</span>
-					drop us a line at
+					send us an email
 					<a href="mailto:oi@donarita.co.uk" className="contact-link">
-						oi@donarita.co.uk
+						??@gg.com
 					</a>
 				</p>
 
 				<div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">
-					<a href="https://instagram.com/OiDonaRita" className="button -block">
+					<a href="https://instagram.com/gritgrocery" className="button -block">
 						Instagram
 					</a>
-					<a href="https://twitter.com/OiDonaRita" className="button -block">
+					<a href="https://twitter.com/gritgrocery" className="button -block">
 						Twitter
 					</a>
-					<a href="https://facebook.com/OiDonaRita" className="button -block">
+					<a href="https://facebook.com/gritgrocery" className="button -block">
 						Facebook
 					</a>
 				</div>

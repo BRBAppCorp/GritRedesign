@@ -23,7 +23,7 @@ function Shop({ className, shop }) {
 					{shop.postcode}
 				</address>
 				<a
-					href={`https://www.google.com/maps/dir/?api=1&destination=${shop.postcode}`}
+					href={`https://www.google.com/maps/dir/?api=1&destination=${shop.address}`}
 					className="small faded"
 					target="_blank">
 					View on map
@@ -42,13 +42,8 @@ function ShopsPage({ data }) {
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Where to buy
+						Where to find us
 						<br />
-						<span className="salmon">
-							Bake-at-home
-							<br />
-							frozen packs.
-						</span>
 					</h1>
 				</div>
 
@@ -67,10 +62,10 @@ function ShopsPage({ data }) {
 
 			<Section className="-blue center">
 				<div className="grid">
-					<h2>Can't find Dona Rita Pão de Queijo near you?</h2>
-					<p>Bring our Product Request Form to your favourite store.</p>
+					<h2>Can't find a Grit Grocery near you?</h2>
+					<p>Bring us to your neighborhood!</p>
 					<a className="button" href="./product-request-form.pdf" target="_blank">
-						Get request form
+						Get us to you
 					</a>
 				</div>
 			</Section>
@@ -79,7 +74,7 @@ function ShopsPage({ data }) {
 
 			<Section className="-blue shops-interest">
 				<div className="grid">
-					<h2 className="h1 col md-push-1 lg-push-2">Interested in stocking?</h2>
+					<h2 className="h1 col md-push-1 lg-push-2">Interested in hosting us?</h2>
 				</div>
 
 				<div className="grid">

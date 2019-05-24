@@ -31,38 +31,32 @@ function StoryPage({ location }) {
 				</div>
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h2>
+						<h1>
 							Our Philosophy & Why Grit Grocery Matters.<sup className="-yellow">&#9679;</sup>
-						</h2>
+						</h1>
 					</div>
 
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure">
-							<h2>BEST OF THE FARM = LOCAL</h2>
+							<h2>BEST OF THE FARM = LOCAL</h2><br/>
 							<strong>Houston is Happening.</strong> <br/>
-							Creates Jobs & Diversifies the Houston Economy
-							Minimizes Food Miles & Provides Maximum Freshness
-							Reinforces the “Seasonality” of Food
+							<li>Creates Jobs & Diversifies the Houston Economy</li>
+							<li>Minimizes Food Miles & Provides Maximum Freshness</li>
+							<li>Reinforces the “Seasonality” of Food</li><br/>
 
-							<h2>UNPROCESSED: WHY EAT WHAT YOU CAN'T PRONOUNCE?</h2>
+							<h2>UNPROCESSED: WHY EAT WHAT YOU CAN'T PRONOUNCE?</h2><br/>
 
-							Less is more
-							REAL FOOD. No Dyes, No Preservatives, No Pesticides, No Hormones
-							Processed Is Not Progress
-
+							<li>Less is more</li>
+							<li>REAL FOOD. No Dyes, No Preservatives, No Pesticides, No Hormones</li>
+							<li>Processed Is Not Progress</li><br/>
 
 						</p>
-						<p>
-							<Link to="/ingredients" className="button">
-								Our ingredients
-							</Link>
-						</p>
+
 					</div>
 
 					<div className="col md-3 lg-2">
 						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Saudade is a feeling of nostalgia and homesickness characteristic of
-							Brazilian temperament. This portuguese word has no translation.
+						Imagine a Farmers Market + Blue Apron, on a food truck. Real food, right in your neighborhood, saving you time without sacrificing health.
 						</p>
 					</div>
 				</div>
@@ -71,38 +65,51 @@ function StoryPage({ location }) {
 			<Banner img={fullWidthImageRollingImg} mobileImg={fullWidthImageRollingImg} />
 
 			<Section className="-white">
+				
+			<div className="grid">
+					<div className="col md-push-1 lg-push-3">
+						<h2>BACK TO THE BLOCK = COMMUNITY</h2><br/>
+					</div>
+				</div>
+				<div className="grid">
+					<div className="col md-7 lg-5 md-push-1 lg-push-3">
+						<p className="measure">
+							<strong>We Know Your Dog's Name</strong>
+						</p>
+
+						<p className="measure">
+						<li>Located in Your Community, Not on the Fringe</li>
+						<li>Small store format enables genuine interaction and connection with customers</li>
+						<li>Cooking connects & food is meant to be shared</li>
+						</p>
+					</div>
+					</div>	
+
 				<div className="grid">
 					<div className="col md-push-1 lg-push-3">
-						<h2>Family business</h2>
+						<h2>EXPERIENCE: SHOP WITH YOUR SHADES ON.</h2><br/>
+
 					</div>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<p className="measure">
-							Rita is already renowned for her Pão de Queijo with her family and friends.
-						</p>
 
 						<p className="measure">
-							And none more so than with Clara, her son Pedro’s girlfriend. Allergic to
-							gluten, Pão de Queijo has quickly become a staple in Clara’s diet, and she
-							continues to be in awe of the tasty and fluffy gluten free snacks.
-						</p>
-
-						<p className="measure">
-							A truly family enthused adventure, Rita’s dream is for Londoners to try her
-							delicious Brazilian bites, and with the help of Clara and Pedro, to share
-							them with everyone in town.
+						<li>Open-Air Store Front</li>
+						<li>Walk, Bike, or METRO to Your Favorite Grit Location</li>
+						<li>Distilled Product Offering Allows for a Simplified Shopping Experience</li>
 						</p>
 					</div>
+
+				
 
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
 						<FakeImg className="-three-x-two" img={familyImg} />
 					</div>
-					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2 small faded">
-						Family photo by <a href="https://munchies.com">Munchies</a>.
-					</div>
 				</div>
+
+				
 			</Section>
 		</div>
 		// </Layout>

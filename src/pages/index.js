@@ -56,7 +56,7 @@ function IndexPage({ data, location }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							Healthy is Hard. Processed foods have dominated traditional supermarkets,
+							Healthy is hard. Processed foods have dominated traditional supermarkets,
 							and the grocery shopping process has become miserable and time consuming.
 							Grit Grocery’ s mobile markets and home delivery make cooking healthy, easy,
 							and fun by bringing smart food options and nutritious meal kit bundles from local farmers and producers,
@@ -91,18 +91,18 @@ function IndexPage({ data, location }) {
 
 			<Section className="-blue">
 				<div className="grid">
-					<h1 className="col md-push-1 lg-push-2">Eat it</h1>
+					<h1 className="col md-push-1 lg-push-2">BEST OF THE BREWS</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h3 className="measure-wider">Find a shop</h3>
+						<h3 className="measure-wider">Delivered To Your Block!</h3>
 						<p className="measure-wider">
-							Buy our frozen bake-at-home packs from a few shops around London.
+							Hey Gritty City! What's a well balanced meal without a glass of wine or can of beer?
 						</p>
 						<p className="measure-wider">
 							<Link to="/stockists" className="button">
-								See stockists
+								See Our Drinks!
 							</Link>
 						</p>
 					</div>
@@ -122,7 +122,7 @@ function IndexPage({ data, location }) {
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2">
-						<h2 className="h1">It’s pronounced pown-deh-kay-zho.</h2>
+						<h2 className="h1">It’s pronounced alk-oh-haul.</h2>
 					</div>
 				</div>
 			</Section>
@@ -140,10 +140,9 @@ function IndexPage({ data, location }) {
 				<div className="grid">
 					<blockquote className="col md-9 md-push-1 lg-push-2">
 						<h3 className="h1">
-							A crunchy outside giving way to a cloud-like interior. Sounds ace, right?
-							Right.
+							"I’m excited about this initiative, and I’m proud of Grit Grocery for focusing on this issue right here at home in Houston."
 						</h3>
-						<p>Tom Howells – TimeOut London</p>
+						<p>-Sylvester Turner</p>
 					</blockquote>
 				</div>
 			</Section>

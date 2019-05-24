@@ -79,16 +79,14 @@ export class Product extends React.Component {
 					</div>
 
 					<div className="col fluid md-6 lg-5">
-						<h1 style={{ marginTop: 0 }}>Bake-at-home frozen pack.</h1>
-						<h3 className="color-salmon1">15 cheesy balls – £5.</h3>
+						<h1 style={{ marginTop: 0 }}>FABIO'S Artisan FRESH PASTA</h1>
 
 						{this.props.soldout && (
 							<div>
-								<h3 className="color-salmon1 yellow">CLOSED.</h3>
 								<p>
-									If you'd like to read more about our closure,{' '}
+								Crafted without any preservatives or additives, Fabio’s fresh pasta is another example of Houstonians championing the real food revolution.{' '}
 									<a href="https://medium.com/@OiDonaRita/time-to-say-goodbye-e56803c3f084">
-										read our goodbye letter
+										read more
 									</a>
 									.
 								</p>

@@ -33,7 +33,7 @@ address {
 
 .main {
 	opacity: 0;
-	animation: fadeContent 1600ms 600ms ease-in-out forwards;
+	animation: fadeContent 400ms 200ms ease-in-out forwards;
 }
 
 @keyframes fadeContent {
@@ -66,6 +66,7 @@ h3 {
 
 h1,
 .h1 {
+	font-family: $fontDefault;
 	font-size: 36px;
 	line-height: 36px;
 	letter-spacing: 1px;
@@ -82,9 +83,12 @@ h1,
 }
 
 h2,
-.h2,
+.h2{
+	font-family: 'Open Sans', sans-serif;
+}
 h3,
 .h3 {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: 36px;
 	margin-top: 20px;
@@ -108,6 +112,7 @@ h3,
 }
 
 p {
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 20px;
 
 	@include medium {
