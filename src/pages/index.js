@@ -98,11 +98,11 @@ function IndexPage({ data, location }) {
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<h3 className="measure-wider">Delivered To Your Block!</h3>
 						<p className="measure-wider">
-							Hey Gritty City! What's a well balanced meal without a glass of wine or can of beer?
+						Hey Gritty City! What's a well balanced meal without a glass of wine or can of beer?
 						</p>
 						<p className="measure-wider">
 							<Link to="/stockists" className="button">
-								See Our Drinks!
+							See Our Drinks!
 							</Link>
 						</p>
 					</div>
@@ -140,7 +140,7 @@ function IndexPage({ data, location }) {
 				<div className="grid">
 					<blockquote className="col md-9 md-push-1 lg-push-2">
 						<h3 className="h1">
-							"I’m excited about this initiative, and I’m proud of Grit Grocery for focusing on this issue right here at home in Houston."
+						"I’m excited about this initiative, and I’m proud of Grit Grocery for focusing on this issue right here at home in Houston."
 						</h3>
 						<p>-Sylvester Turner</p>
 					</blockquote>

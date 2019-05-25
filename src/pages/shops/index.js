@@ -62,7 +62,7 @@ function ShopsPage({ data }) {
 
 			<Section className="-blue center">
 				<div className="grid">
-					<h2>Can't find a Grit Grocery near you?</h2><br/>
+					<h2>Can't find a Grit Grocery near you?</h2>
 					<p>Bring us to your neighborhood!</p>
 					<a className="button" href="./product-request-form.pdf" target="_blank">
 						Get us to you
